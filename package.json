@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "swift test --enable-test-discovery",
+    "deploy": "./scripts/deploy.sh",
+    "build": "./scripts/build.sh",
+    "sls:deploy": "./scripts/build.sh && serverless deploy",
+    "sls:remove": "serverless remove",
+    "serverless:deploy": "./scripts/build.sh && serverless deploy",
+    "serverless:remove": "serverless remove"
+  }
+}
